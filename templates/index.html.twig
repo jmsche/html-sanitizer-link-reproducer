@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <style>
+        a { color: red; }
+        a:hover { text-decoration: underline; }
+    </style>
+
+    {{ text|sanitize_html('comments') }}
+{% endblock body %}

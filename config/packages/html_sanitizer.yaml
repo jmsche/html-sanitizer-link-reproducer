@@ -1,0 +1,14 @@
+framework:
+    html_sanitizer:
+        sanitizers:
+            comments:
+                allow_elements:
+                    p: '*'
+                    strong: '*'
+                    em: '*'
+                    u: '*'
+                    a: '*'
+                force_attributes:
+                    a:
+                        rel: noopener noreferrer
+                        target: _blank
