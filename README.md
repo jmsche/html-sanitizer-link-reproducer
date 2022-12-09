@@ -7,6 +7,7 @@ To reproduce:
 ```bash
 git clone https://github.com/jmsche/html-sanitizer-link-reproducer.git
 cd html-sanitizer-link-reproducer
+composer install
 symfony serve
 ```
 
